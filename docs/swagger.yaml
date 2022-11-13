@@ -122,7 +122,6 @@ paths:
         maxLength: 100
         minLength: 3
         name: created_by
-        required: true
         schema:
           type: string
       produces:
@@ -144,7 +143,7 @@ paths:
   /api/v1/tags/{id}:
     delete:
       parameters:
-      - description: 标签 ID
+      - description: 标签ID
         in: path
         name: id
         required: true
@@ -167,7 +166,7 @@ paths:
       summary: 删除标签
     put:
       parameters:
-      - description: 标签 ID
+      - description: 标签ID
         in: path
         name: id
         required: true
